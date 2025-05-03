@@ -15,6 +15,7 @@ Visual check Plot a scatter plot between Income and CCAvg to spot patterns or we
 
 Standardize it Apply standardization to scale the data ⚖️
 
+-----------------------------------------------------------------
 
 
 🤖 Modeling with K-Means
@@ -36,7 +37,7 @@ Explore the clusters Use groupby('Segment_KM') to analyze the characteristics of
 
 Visualize it! Plot a scatter between Income and CCAvg, color-coded by Segment_KM 🎨
 
-
+---------------------------------------------------------------------
   
 🎯 K-Means with PCA – Step-by-Step
 Apply PCA on the scaled data Fit a PCA() model and get the explained variance ratio for each principal component 📊
@@ -65,7 +66,7 @@ Merge original and PCA data Combine data and pca_df into one final dataframe �
 
 Visualize in 2D Plot a scatter between Variable_1 and Variable_2, colored by Segment_KM_PCA 🎨
 
-
+---------------------------------------------------------------------------------
 🌿 Hierarchical Clustering (Agglomerative)
 Draw the dendrogram Use linkage and dendrogram to visualize clusters — it’ll help you decide the number of clusters (centroids) 🌳✨
 
@@ -75,7 +76,7 @@ Predict clusters Add a new column named segment_HC with the predicted cluster la
 
 Visualize it Plot a scatter between Income and CCAvg, colored by segment_HC 🎨💼
 
-
+----------------------------------------------------------------------------------
 🧬 Agglomerative Clustering (PCA Version)
 Draw the dendrogram Use the pca_df (your PCA-transformed data) to build a dendrogram — this helps you decide how many clusters to use 🌳
 
