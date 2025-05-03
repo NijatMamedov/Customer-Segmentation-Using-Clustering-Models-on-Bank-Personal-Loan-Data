@@ -1,4 +1,4 @@
-# Customer Segmentation Using Clustering Modules on Bank Personal Loan Data
+# Customer Segmentation Using Clustering Models on Bank Personal Loan Data
 
 🔧 Data Preprocessing Steps
 Look at the basics Check descriptive stats to understand the data 📊
